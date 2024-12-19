@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ЖК Мелодия</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="navbar">
+            <a href="./figma.html" class="logo">
+                <img src="./img/logo.svg" alt="Логотип Мелодия">
+            </a>
+        
+            <nav class="navbar-nav">
+                <ul class="navbar-menu">
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link">Подобрать <br> квартиру</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link">Забронировать <br> квартиру</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link">Ход <br> строительства</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link">Проектная <br> декларация</a>
+                    </li>
+                 </ul>
+            </nav>
+            <div class="navbar-contacts">
+                <span class="navbar-text">Закажите звонок:</span>
+                <a class="navbar-phone" href="tel:+79352572342">+7 (843) 999-99-99</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="building-selection">
+            <div class="building-image">
+                <img src="./img/Group_3.svg" alt="Изображение здания">
+                <div class="highlighted-floor"></div>
+            </div>
+            <div class="floor-selection">
+                <h2>ВЫБЕРИТЕ ЖЕЛАЕМЫЙ ЭТАЖ</h2>
+                <div class="floor-number">
+                    <input type="button" id="buttonCountPlus"class="arrow up" value="▲">
+                    <div id="buttonCountNumber" class="floor-count">1</div>
+                    <input type="button" id="buttonCountMinus" class="arrow down" value="▼">
+                </div>
+                <button class="view-apartments">Смотреть квартиры на этаже</button>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-info">
+            <div class="company-logo">
+                <img src="./img/for_fav-01 1.svg" alt="Компания">
+            </div>
+            <div class="contact-number">Закажите звонок: <br> +7 (843) 999-99-99</div>
+        </div>
+        <nav class="footer-nav">
+            <ul>
+                <li><a href="#">Политика конфиденциальности</a></li>
+                <li><a href="#">Публичная оферта</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
